@@ -1,0 +1,30 @@
+# MySQL.  Versions 4.1 and 5.0 are recommended.
+#
+#
+# Be sure to use new-style password hashing:
+#   http://dev.mysql.com/doc/refman/5.0/en/old-client.html
+development:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: d360
+  pool: 5
+  username: root
+  password: sameer16 
+  # socket: /var/run/mysqld/mysqld.sock
+
+test:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: d360_test
+  pool: 5
+  username: root
+  password: sameer16 
+
+production:
+  adapter: jdbcmysql
+  database: db/development.sqlite3_production
+  pool: 5
+  timeout: 5000
+
