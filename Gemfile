@@ -2,13 +2,20 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.7'
 gem 'therubyracer'
+gem 'bootstrap-sass', '2.0.0'
+gem 'bcrypt-ruby', '3.0.1'
+gem 'faker', '1.0.1'
+gem 'will_paginate', '3.0.3'
+gem 'bootstrap-will_paginate', '0.0.6'
+gem 'rspec-rails'
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3', '1.3.5'
 
 gem 'mysql2'
-
+gem 'annotate', '2.5.0', group: :development
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
