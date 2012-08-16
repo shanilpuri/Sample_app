@@ -7,7 +7,7 @@ development:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: d360
+  database: shanil
   pool: 5
   username: root
   password: sameer16 
